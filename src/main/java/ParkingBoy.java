@@ -22,6 +22,12 @@ public class ParkingBoy {
     }
 
     public MyCar getCar(String token) {
-        return null;  //To change body of created methods use File | Settings | File Templates.
+        MyCar myCar = null;
+        for (ParkingLot parkingLot:parkingLotList){
+            if(parkingLot.pullOutCar(token) !=null){
+                myCar = parkingLot.pullOutCar(token);
+            }
+        }
+        return myCar;
     }
 }
