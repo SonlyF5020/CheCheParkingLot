@@ -31,6 +31,5 @@ public class ParkingBoyTest {
         MyCar myCar = new MyCar();
         parkingBoy.park(myCar);
         assertThat(parkingBoy.getCar(myCar.getToken()),is(myCar));
-
     }
 }
