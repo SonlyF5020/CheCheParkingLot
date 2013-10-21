@@ -22,7 +22,9 @@ public class ParkingBoyTest {
     @Test
     public void boy_can_part_car() throws Exception {
         MyCar myCar = new MyCar();
+
         parkingBoy.park(myCar);
+
         assertThat(parkingBoy.contains(myCar),is(true));
     }
 

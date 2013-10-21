@@ -16,7 +16,9 @@ public class ParkingLotTest {
     @Test
     public void should_park_position_decrease_one_when_one_car_in() throws Exception {
         MyCar myCar = new MyCar();
+
         parkingLot.acceptOneCar(myCar);
+
         assertThat(parkingLot.contain(myCar), is(true));
     }
 

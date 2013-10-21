@@ -18,7 +18,12 @@ public class ParkingBoy {
     }
 
     public boolean contains(MyCar myCar) {
-       return parkingLotList.get(0).contain(myCar);
+        for (ParkingLot parkingLot:parkingLotList){
+            if (parkingLot.contain(myCar)){
+                return true;
+            }
+        }
+        return false;
     }
 
     public MyCar getCar(String token) {
