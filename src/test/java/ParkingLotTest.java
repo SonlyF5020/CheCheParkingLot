@@ -47,9 +47,9 @@ public class ParkingLotTest {
         parkingLot.setLotNumber(0);
         MyCar myCar = new MyCar();
 
-        boolean actual = parkingLot.acceptOneCar(myCar);
+        parkingLot.acceptOneCar(myCar);
 
-        assertThat(actual, is(false));
+        assertThat(parkingLot.contain(myCar), is(false));
     }
 
 }

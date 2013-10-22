@@ -4,11 +4,11 @@
     <list default="true" id="8cd64daa-b5f4-435b-b5c2-35619655bd68" name="Default" comment="" />
     <ignored path="ParkingLot.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/ParkingLotTest.java" changelist="8cd64daa-b5f4-435b-b5c2-35619655bd68" time="1381834656615" ignored="false" />
-    <file path="/fragment.java" changelist="8cd64daa-b5f4-435b-b5c2-35619655bd68" time="1381971265558" ignored="false" />
-    <file path="/ParkingLot.java" changelist="8cd64daa-b5f4-435b-b5c2-35619655bd68" time="1381834470910" ignored="false" />
-    <file path="/ParkingBoyTest.java" changelist="8cd64daa-b5f4-435b-b5c2-35619655bd68" time="1381834863223" ignored="false" />
-    <file path="/ParkingBoy.java" changelist="8cd64daa-b5f4-435b-b5c2-35619655bd68" time="1382316698846" ignored="false" />
+    <file path="/ParkingLotTest.java" changelist="8cd64daa-b5f4-435b-b5c2-35619655bd68" time="1382333331821" ignored="false" />
+    <file path="/fragment.java" changelist="8cd64daa-b5f4-435b-b5c2-35619655bd68" time="1382333360012" ignored="false" />
+    <file path="/ParkingLot.java" changelist="8cd64daa-b5f4-435b-b5c2-35619655bd68" time="1382333388967" ignored="false" />
+    <file path="/ParkingBoyTest.java" changelist="8cd64daa-b5f4-435b-b5c2-35619655bd68" time="1382334126527" ignored="false" />
+    <file path="/ParkingBoy.java" changelist="8cd64daa-b5f4-435b-b5c2-35619655bd68" time="1382333716421" ignored="false" />
     <file path="/MyCar.java" changelist="8cd64daa-b5f4-435b-b5c2-35619655bd68" time="1382056768804" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +82,7 @@
       <file leaf-file-name="ParkingLotTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ParkingLotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="8" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+            <state line="41" column="35" selection-start="1100" selection-end="1109" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,7 +91,7 @@
       <file leaf-file-name="ParkingBoyTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ParkingBoyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="35" selection-start="702" selection-end="702" vertical-scroll-proportion="0.86466163">
+            <state line="60" column="21" selection-start="1720" selection-end="1720" vertical-scroll-proportion="0.7744361">
               <folding />
             </state>
           </provider>
@@ -100,7 +100,7 @@
       <file leaf-file-name="ParkingBoy.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ParkingBoy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="21" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
+            <state line="34" column="29" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,7 +118,7 @@
       <file leaf-file-name="ParkingLot.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ParkingLot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="16" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
+            <state line="30" column="17" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,11 +134,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ParkingLot.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyCar.java" />
         <option value="$PROJECT_DIR$/src/test/java/ParkingLotTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ParkingBoyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ParkingLot.java" />
         <option value="$PROJECT_DIR$/src/main/java/ParkingBoy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ParkingBoyTest.java" />
       </list>
     </option>
   </component>
@@ -176,8 +176,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,6 +258,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,52 +309,6 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ParkingLotTest.should_not_get_car_by_wrong_number" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ParkingLot" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ParkingLotTest" />
-      <option name="METHOD_NAME" value="should_not_get_car_by_wrong_number" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ParkingBoyTest.boy_can_part_car" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ParkingLot" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ParkingBoyTest" />
-      <option name="METHOD_NAME" value="boy_can_part_car" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -411,7 +365,55 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ParkingBoyTest.boy_can_not_part_car" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ParkingLot" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ParkingBoyTest" />
+      <option name="METHOD_NAME" value="boy_can_not_part_car" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ParkingBoyTest.boy_can_not_get_car" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ParkingLot" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ParkingBoyTest" />
+      <option name="METHOD_NAME" value="boy_can_not_get_car" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -426,6 +428,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -454,19 +469,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -507,18 +509,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ParkingLotTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ParkingLotTest.should_not_get_car_by_wrong_number" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ParkingBoyTest.boy_can_part_car" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ParkingBoyTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ParkingLotTest.should_not_park_a_car_when_lot_is_full" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ParkingBoyTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ParkingLotTest.should_not_park_a_car_when_lot_is_full" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ParkingBoyTest.boy_can_not_part_car" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ParkingBoyTest.boy_can_not_get_car" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.ParkingLotTest" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.ParkingBoyTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ParkingBoyTest.boy_can_part_car" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ParkingLotTest.should_not_park_a_car_when_lot_is_full" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ParkingLotTest.should_not_get_car_by_wrong_number" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ParkingBoyTest.boy_can_not_get_car" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ParkingBoyTest.boy_can_not_part_car" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ParkingLotTest.should_not_park_a_car_when_lot_is_full" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -537,11 +539,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1420" height="809" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280116" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4644412" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -557,12 +560,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2518195" sideWeight="0.61973876" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2510917" sideWeight="0.61973876" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38026124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -708,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ParkingLot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="16" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MyCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="20" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
@@ -722,23 +717,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ParkingLotTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ParkingLot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+        <state line="30" column="17" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ParkingBoy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
+        <state line="34" column="29" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ParkingLotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="35" selection-start="1100" selection-end="1109" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ParkingBoyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="35" selection-start="702" selection-end="702" vertical-scroll-proportion="0.86466163">
+        <state line="60" column="21" selection-start="1720" selection-end="1720" vertical-scroll-proportion="0.7744361">
           <folding />
         </state>
       </provider>

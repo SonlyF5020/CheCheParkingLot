@@ -19,20 +19,9 @@ public class ParkingLot {
         this.lotNumber = lotNumber;
     }
 
-    public boolean acceptOneCar(MyCar myCar) {
-        if(getCarMap().entrySet().size()==lotNumber){
-            return false;
-        }
-        getCarMap().put(myCar.getToken(), myCar);
-        return true;
-    }
-
-    public int getLotNumber() {
-        return lotNumber;
-    }
-
-    public void pullOutOneCar() {
-        lotNumber ++;
+    public void acceptOneCar(MyCar myCar) {
+        if (getCarMap().entrySet().size() != lotNumber) {
+        getCarMap().put(myCar.getToken(), myCar);}
     }
 
     public Boolean contain(MyCar myCar) {

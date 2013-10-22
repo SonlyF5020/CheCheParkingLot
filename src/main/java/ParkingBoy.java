@@ -14,7 +14,10 @@ public class ParkingBoy {
     }
 
     public void park(MyCar myCar) {
-        this.parkingLotList.get(0).acceptOneCar(myCar);
+        for (ParkingLot parkingLot:parkingLotList){
+            parkingLot.acceptOneCar(myCar);
+            if (parkingLot.contain(myCar)) break;
+        }
     }
 
     public boolean contains(MyCar myCar) {
