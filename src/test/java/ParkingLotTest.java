@@ -14,7 +14,7 @@ public class ParkingLotTest {
     }
 
     @Test
-    public void should_park_position_decrease_one_when_one_car_in() throws Exception {
+    public void should_park_car() throws Exception {
         MyCar myCar = new MyCar();
 
         parkingLot.acceptOneCar(myCar);
@@ -52,4 +52,20 @@ public class ParkingLotTest {
         assertThat(parkingLot.contain(myCar), is(false));
     }
 
+    @Test
+    public void should_return_right_blank_position() throws Exception {
+        ParkingLot parkingLot1 = new ParkingLot(10);
+        MyCar myCar1= new MyCar();
+        parkingLot1.acceptOneCar(myCar1);
+        assertThat(parkingLot1.getBlankPosition(),is(9));
+
+    }
+
+    @Test
+    public void should_return_right_blank_rate() throws Exception {
+        ParkingLot parkingLot1 = new ParkingLot(10);
+        MyCar myCar1= new MyCar();
+        parkingLot1.acceptOneCar(myCar1);
+        assertThat(parkingLot1.getBlankPositionRate(),is(0.9));
+    }
 }

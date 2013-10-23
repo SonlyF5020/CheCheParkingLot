@@ -13,7 +13,4 @@ public class MyCar {
         return token;
     }
 
-    public void setToken(String token) {
-        this.token = token;
-    }
 }
