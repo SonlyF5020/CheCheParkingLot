@@ -73,15 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ParkingBoyTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ParkingBoyTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ParkingBoyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="40" selection-start="1650" selection-end="1650" vertical-scroll-proportion="-15.0">
-              <folding>
-                <element signature="method#boy_can_part_car#0;class#ParkingBoyTest#0" expanded="false" />
-                <element signature="method#boy_can_not_part_car_when_boy_is_full#0;class#ParkingBoyTest#0" expanded="false" />
-                <element signature="method#boy_can_get_car#0;class#ParkingBoyTest#0" expanded="false" />
-              </folding>
+            <state line="55" column="40" selection-start="1650" selection-end="1650" vertical-scroll-proportion="-0.8048">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParkingBoy.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ParkingBoy.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ParkingBoy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="43" selection-start="214" selection-end="214" vertical-scroll-proportion="0.2507837">
+            <state line="34" column="20" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="method#contains#0;class#ParkingBoy#0" expanded="false" />
                 <element signature="method#getCar#0;class#ParkingBoy#0" expanded="false" />
@@ -119,7 +115,7 @@
       <file leaf-file-name="NormalChooser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NormalChooser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+            <state line="2" column="34" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,7 +124,7 @@
       <file leaf-file-name="ParkingLotChooser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ParkingLotChooser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+            <state line="2" column="17" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,11 +134,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/MyCar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#MyCar#0;class#MyCar#0" expanded="false" />
-                <element signature="method#MyCar#1;class#MyCar#0" expanded="false" />
-                <element signature="method#getToken#0;class#MyCar#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,14 +143,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ParkingLot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="54" column="22" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#setLotNumber#0;class#ParkingLot#0" expanded="false" />
-                <element signature="method#acceptOneCar#0;class#ParkingLot#0" expanded="false" />
-                <element signature="method#contain#0;class#ParkingLot#0" expanded="false" />
-                <element signature="method#pullOutCar#0;class#ParkingLot#0" expanded="false" />
-                <element signature="method#getCarMap#0;class#ParkingLot#0" expanded="false" />
-                <element signature="method#setCarMap#0;class#ParkingLot#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -179,11 +164,11 @@
         <option value="$PROJECT_DIR$/src/main/java/CleverParkingBoy.java" />
         <option value="$PROJECT_DIR$/src/main/java/SmartParkingBoy.java" />
         <option value="$PROJECT_DIR$/src/test/java/ParkingBoyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ParkingBoy.java" />
         <option value="$PROJECT_DIR$/src/main/java/ParkingLotChooser.java" />
         <option value="$PROJECT_DIR$/src/main/java/SmartChooser.java" />
         <option value="$PROJECT_DIR$/src/main/java/NormalChooser.java" />
         <option value="$PROJECT_DIR$/src/main/java/CleverChooser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ParkingBoy.java" />
       </list>
     </option>
   </component>
@@ -220,6 +205,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -302,8 +289,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,12 +304,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -464,6 +449,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -490,19 +488,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -589,7 +574,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="809" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -603,19 +588,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32708332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15351507" sideWeight="0.7117904" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20803443" sideWeight="0.7117904" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.275" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280116" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32708332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -684,14 +669,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ParkingLot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="22" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ParkingBoyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="45" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#boy_can_part_car#0;class#ParkingBoyTest#0" expanded="false" />
-            <element signature="method#boy_can_not_part_car_when_boy_is_full#0;class#ParkingBoyTest#0" expanded="false" />
-            <element signature="method#boy_can_get_car#0;class#ParkingBoyTest#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -708,25 +703,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/MyCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="18" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#MyCar#0;class#MyCar#0" expanded="false" />
-            <element signature="method#MyCar#1;class#MyCar#0" expanded="false" />
-            <element signature="method#getToken#0;class#MyCar#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ParkingLot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="17" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#setLotNumber#0;class#ParkingLot#0" expanded="false" />
-            <element signature="method#acceptOneCar#0;class#ParkingLot#0" expanded="false" />
-            <element signature="method#contain#0;class#ParkingLot#0" expanded="false" />
-            <element signature="method#pullOutCar#0;class#ParkingLot#0" expanded="false" />
-            <element signature="method#getCarMap#0;class#ParkingLot#0" expanded="false" />
-            <element signature="method#setCarMap#0;class#ParkingLot#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -750,48 +734,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ParkingLot.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyCar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="22" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#setLotNumber#0;class#ParkingLot#0" expanded="false" />
-            <element signature="method#acceptOneCar#0;class#ParkingLot#0" expanded="false" />
-            <element signature="method#contain#0;class#ParkingLot#0" expanded="false" />
-            <element signature="method#pullOutCar#0;class#ParkingLot#0" expanded="false" />
-            <element signature="method#getCarMap#0;class#ParkingLot#0" expanded="false" />
-            <element signature="method#setCarMap#0;class#ParkingLot#0" expanded="false" />
-          </folding>
+        <state line="15" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ParkingLotChooser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+        <state line="2" column="17" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SmartChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#MyCar#0;class#MyCar#0" expanded="false" />
-            <element signature="method#MyCar#1;class#MyCar#0" expanded="false" />
-            <element signature="method#getToken#0;class#MyCar#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NormalChooser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+        <state line="2" column="34" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -803,24 +762,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ParkingBoyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SmartChooser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="40" selection-start="1650" selection-end="1650" vertical-scroll-proportion="-15.0">
-          <folding>
-            <element signature="method#boy_can_part_car#0;class#ParkingBoyTest#0" expanded="false" />
-            <element signature="method#boy_can_not_part_car_when_boy_is_full#0;class#ParkingBoyTest#0" expanded="false" />
-            <element signature="method#boy_can_get_car#0;class#ParkingBoyTest#0" expanded="false" />
-          </folding>
+        <state line="2" column="6" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ParkingBoy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="214" selection-end="214" vertical-scroll-proportion="0.2507837">
+        <state line="34" column="20" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="method#contains#0;class#ParkingBoy#0" expanded="false" />
             <element signature="method#getCar#0;class#ParkingBoy#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ParkingLot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="22" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ParkingBoyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="40" selection-start="1650" selection-end="1650" vertical-scroll-proportion="-0.8048">
+          <folding />
         </state>
       </provider>
     </entry>

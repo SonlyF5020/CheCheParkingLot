@@ -3,12 +3,12 @@ import java.util.List;
 
 public class ParkingBoy {
 
-    private ParkingLotChooser normalChooser;
+    private ParkingLotChooser chooser;
 
     private List<ParkingLot> parkingLotList;
 
-    public ParkingBoy(ParkingLotChooser normalChooser) {
-        this.normalChooser = normalChooser;
+    public ParkingBoy(ParkingLotChooser chooser) {
+        this.chooser = chooser;
         this.parkingLotList = new ArrayList<ParkingLot>();
     }
 
@@ -17,7 +17,7 @@ public class ParkingBoy {
     }
 
     public void park(MyCar myCar) {
-        ParkingLot target = normalChooser.choose(parkingLotList);
+        ParkingLot target = chooser.choose(parkingLotList);
         if (target != null) {
             target.acceptOneCar(myCar);
         }
